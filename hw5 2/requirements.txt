@@ -1,0 +1,4 @@
+# For the scripts you run on your own computer (setup_schema.py, show_tables.py, stats.py)
+cloud-sql-python-connector[pymysql]
+google-auth
+requests

@@ -1,0 +1,6 @@
+# Installed on the web-server VM by startup.sh
+google-cloud-storage
+google-cloud-pubsub
+google-cloud-logging
+cloud-sql-python-connector[pymysql]
+SQLAlchemy
