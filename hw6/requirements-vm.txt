@@ -1,0 +1,5 @@
+# Installed on the hw6-models VM by startup.sh
+cloud-sql-python-connector[pymysql]
+google-cloud-storage
+pandas
+scikit-learn
