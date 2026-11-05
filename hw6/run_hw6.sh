@@ -22,6 +22,12 @@ if [ "$DB_PASS" = "CHANGE-ME" ]; then
   exit 1
 fi
 
+if ! gcloud auth print-access-token >/dev/null 2>&1; then
+  echo "ERROR: gcloud is not logged in (or the login expired). Run:  gcloud auth login"
+  echo "Then run this script again."
+  exit 1
+fi
+
 # ------------------------------------------------------------------ clean-up (always runs)
 CLEANED=0
 PASS_FILE=""
